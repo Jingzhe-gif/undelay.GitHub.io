@@ -35,3 +35,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+###vscode安装go插件
+1.在go安装目录的src文件下使用mkdir命令创建文件golang.org和golang.org下的x文件
+2.使用cd进入x中
+3.运行git clone https://github.com/golang/tools.git，git clone https://github.com/golang/lint.git两条命令clone需要的插件
+4.执行go get golang.org/x/lint/golint后打开vscode再进行install,这时需要的插件都已经安装完毕。
